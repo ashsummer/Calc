@@ -14,12 +14,12 @@ class StartActivity : AppCompatActivity() {
 
         goButton.setOnClickListener{
             var player1 : String = "Player1"
-            if( Player1.text.toString() != null ){
+            if( !Player1.text.toString().equals("") ){
                 player1 = Player1.text.toString()
             }
 
             var player2 : String = "Player2"
-            if(Player2.text.toString() != null){
+            if(!Player2.text.toString().equals("")){
                 player2 = Player2.text.toString()
             }
 
